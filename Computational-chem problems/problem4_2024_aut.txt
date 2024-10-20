@@ -1,0 +1,7 @@
+This is a continuation of the Problem given in the last class
+-------------------------------------------------------------
+
+Modify the code to calculate the total distance covered by each of the 216 molecules
+after 20 successive iterations. Positions of the molecules are subjected to PBC.
+
+Submit the modified code and the total distance covered by each molecule.

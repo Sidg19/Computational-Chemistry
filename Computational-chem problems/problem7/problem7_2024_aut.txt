@@ -1,0 +1,27 @@
+
+Write a routine to implement the regular Verlet scheme of integrating
+equations of motion. Apply it on the attached data (argon_365.dat) file 
+containing the coordinates of 365 Argon atoms in a cubic cell of 
+dimension 26 Angs.
+
+Carry out 10 iterations with the time-step (dt) given below. Assume, that
+the interactions between the Ar atoms can be described by pairwise 12-6 
+Lennard-Jones form, the parameters of which are given below. Report the
+coordinates after 5th and 10th iterations and the routine.
+
+Required data:
+-------------
+sigma = 3.4 Angs.
+epsilon = 1 kJ/mol.
+cell dimension (L) = 26 Angs.
+Cut-off radius(r_c) = 10 Angs.
+time step of integration (dt) = 20 fs.
+Argon mass = 40 (a.u.)
+Proton mass = 1.673 x 10^(-27) kg
+
+Hints and important points:
+--------------------------
+(1) PBC, minimum image conventions and cut-off scheme have to be implemented.
+(2) Force components (F_x, F_y, F_z) should be calculated in kg*Angs/fs^2 unit with
+appropriate sign
+(3) Assume the initial velocity components (v_x, v_y, v_z) for all the atoms to be zero.

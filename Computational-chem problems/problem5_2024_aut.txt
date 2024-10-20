@@ -1,0 +1,28 @@
+This is a continuation of the Problem given in the last class
+-------------------------------------------------------------
+
+(a) Start with the data containing the coordinates (PROBLEM3.data).
+
+(b) Carry out 10 iterations following the conditions as done before.
+
+Modify and expand the code further to
+
+(c) Calculate the total pairwise potential energy (V) of the system
+for all the iterations. Assume that the interaction between
+the particles can be described with 12-6 Lennard-Jones potential form.
+
+Report the result for each step and submit the code.
+
+
+Required data:
+-------------
+sigma = 3.4 Angs.
+epsilon = 1 kJ/mol.
+cell dimension (L) = 18.64 Angs.
+Cut-off radius(R_c) = 9 Angs.
+
+Hints and important points:
+--------------------------
+(1) PBC, Minimum Image Conventions and cut-off sphere concept have to be implemented.
+(2) V should be reported in kJ/mol unit.
+(5) Ignore pairwise interaction for separation less than 3 Angs.
